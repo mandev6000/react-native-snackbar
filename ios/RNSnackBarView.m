@@ -62,7 +62,7 @@ static const NSTimeInterval ANIMATION_DURATION = 0.250;
 }
 
 - (instancetype)init {
-    self = [super initWithFrame:CGRectMake(0, [UIScreen mainScreen].bounds.size.height - 48,
+    self = [super initWithFrame:CGRectMake(0, 0,
                                            [UIScreen mainScreen].bounds.size.width, 48)];
     if (self) {
         [self buildView];
